@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="2dp"
+    android:background="@color/colorNeutralLight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewNewsImage"
+                android:layout_width="140dp"
+                android:layout_height="100dp"/>
+
+            <TextView
+                android:id="@+id/textViewNewsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorPrimaryDark"
+                android:paddingLeft="4dp"
+                android:textSize="18sp"
+                android:text="Title"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewNewsDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="14sp"
+            android:text="Description Description Description Description Description Description"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/textViewNewsTime"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:text="Time"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorNeutralLight"/>
+
+    </LinearLayout>
+
+</LinearLayout>

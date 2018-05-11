@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/refresh_news"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="REFRESH NEWS"
+        android:elegantTextHeight="true"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorNeutralLight"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Powered by CoinTelegraph.com"
+        android:elegantTextHeight="true"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="@color/textColorSecondary"/>
+
+    <ListView
+        android:id="@+id/listViewForNews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:dividerHeight="7dp"
+        android:divider="@color/colorNeutral"
+        android:padding="7dp"
+        android:background="@color/colorNeutral">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryLight"
+        android:elevation="2dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/totalAsset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="100000.00"
+            android:textSize="52sp"
+            android:textColor="@color/colorNeutralLight"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@mipmap/cash"/>
+
+            <TextView
+                android:id="@+id/cashAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="10000.00"
+                android:textSize="18sp"
+                android:textColor="@color/colorNeutralLight"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="    "
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryLight"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@mipmap/product"/>
+
+            <TextView
+                android:id="@+id/productAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="10000.00"
+                android:textSize="18sp"
+                android:textColor="@color/colorNeutralLight"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resetAll"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="RESET ALL"
+        android:elegantTextHeight="true"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/colorNeutralLight"/>
+
+
+    <ListView
+        android:id="@+id/listViewForAsset"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:dividerHeight="7dp"
+        android:divider="@color/colorNeutral"
+        android:padding="7dp"
+        android:background="@color/colorNeutral">
+    </ListView>
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Bitcoin Casino</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="dialog_reset_message">Do you really want to reset?</string>
+    <string name="dialog_reset_reset">RESET</string>
+    <string name="dialog_reset_cancel">CANCEL</string>
+
+    <string-array name="string_array_select_chart_class">
+        <item>Simple Line Chart</item>
+        <item>Candle Stick Chart</item>
+    </string-array>
+
+    <string-array name="string_array_select_chart_coin">
+        <item>Bitcoin (BTC)</item>
+        <item>Litecoin (LTC)</item>
+        <item>Ethereum (ETH)</item>
+        <item>Zcash (ZEC)</item>
+        <item>Ripple (XRP)</item>
+    </string-array>
+
+    <string-array name="string_array_select_chart_period">
+        <item>MIN</item>
+        <item>HOUR</item>
+        <item>DAY</item>
+    </string-array>
+
+    <string-array name="string_array_select_chart_limit">
+        <item>10</item>
+        <item>30</item>
+        <item>50</item>
+        <item>100</item>
+        <item>300</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+
+
+</resources>
